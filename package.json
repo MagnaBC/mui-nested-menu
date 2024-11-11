@@ -8,7 +8,6 @@
         "commit": "npx cz",
         "deduplicate": "yarn yarn-deduplicate -s fewer",
         "docs": "yarn workspace docs",
-        "postinstall": "yarn deduplicate && yarn lint:sortpackages",
         "lint": "concurrently \"yarn lint:eslint\" \"yarn lint:prettier\" \"yarn lint:sortpackages\"",
         "lint:eslint": "eslint --config .eslintrc --fix '{*,**/*}.{js,jsx,ts,tsx}'",
         "lint:prettier": "prettier --write '{*,**/*}.{css,html,json,js,jsx,md,ts,tsx,yml,yaml}'",
