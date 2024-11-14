@@ -59,6 +59,8 @@ const NestedMenuItem = forwardRef<HTMLLIElement | null, NestedMenuItemProps>(fun
     useImperativeHandle(ref, () => menuItemRef.current!); // eslint-disable-line @typescript-eslint/no-non-null-assertion
 
     const containerRef = useRef<HTMLDivElement | null>(null);
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
     useImperativeHandle(containerRefProp, () => containerRef.current);
 
     const menuContainerRef = useRef<HTMLDivElement | null>(null);
