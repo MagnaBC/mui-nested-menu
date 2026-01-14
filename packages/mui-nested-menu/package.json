@@ -1,7 +1,7 @@
 {
     "name": "mui-nested-menu",
-    "version": "3.5.0",
-    "description": "Infinitely deep nested menu items for MUI 6.",
+    "version": "3.6.0",
+    "description": "Infinitely deep nested menu items for MUI 7.",
     "keywords": [
         "design",
         "material",
@@ -30,15 +30,15 @@
         "dist": "npm run clean && npm run build:package && npm run copy"
     },
     "dependencies": {
-        "@emotion/react": "^11.13.3",
-        "@emotion/styled": "^11.13.0",
-        "@mui/material": "^6.1.6",
-        "@mui/system": "^6.1.6",
-        "react": "18.2.0",
-        "react-dom": "18.2.0"
+        "@emotion/react": "^11.14.0",
+        "@emotion/styled": "^11.14.1",
+        "@mui/material": "^7.3.7",
+        "@mui/system": "^7.3.7",
+        "react": "^19.2.3",
+        "react-dom": "^19.2.3"
     },
     "devDependencies": {
         "parcel": "2.11.0",
-        "typescript": "4.9.4"
+        "typescript": "^5.9.3"
     }
 }
