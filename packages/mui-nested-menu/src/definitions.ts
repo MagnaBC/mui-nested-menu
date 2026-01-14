@@ -1,4 +1,6 @@
-import { SxProps } from '@mui/system/styleFunctionSx/styleFunctionSx';
+import { SxProps } from '@mui/system';
+import React from 'react';
+
 
 export interface MenuItemData {
     uid?: string;
