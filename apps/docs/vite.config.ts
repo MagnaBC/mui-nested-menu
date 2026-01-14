@@ -1,11 +1,11 @@
 import react from '@vitejs/plugin-react';
 import path from 'path';
-import { defineConfig, PluginOption, splitVendorChunkPlugin } from 'vite';
+import { defineConfig, PluginOption } from 'vite';
 import svgrPlugin from 'vite-plugin-svgr';
 import viteTsconfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig(() => {
-    const plugins: PluginOption[] = [react(), splitVendorChunkPlugin(), viteTsconfigPaths(), svgrPlugin()];
+    const plugins: PluginOption[] = [react(), viteTsconfigPaths(), svgrPlugin()];
 
     return {
         build: {
